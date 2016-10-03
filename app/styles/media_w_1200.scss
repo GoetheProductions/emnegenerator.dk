@@ -1,0 +1,202 @@
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    body{
+        background-color: white;
+
+
+        /*MENU STYLING*/
+        .kompanion-logo-li {
+            display: block !important;
+
+            .kompanion-logo{
+                width: 66%;
+                height: auto;
+                margin-top: -12px;
+            }
+        }
+
+        .mobile-logo-wrapper{
+            display: none;
+        }
+
+        #wrapper{
+            width:91.67%;
+            float: right;
+            display: block;
+        }
+
+        #menu{
+            font-family: 'Raleway', sans-serif;
+            nav{
+                width:8.33%;
+                height: 100vh;
+                position: fixed;
+                background-color: #1c1c1f;
+
+                ul{
+                    display: block;
+                    width: 100%;
+                    margin: 13px auto;
+                    padding: 0px;
+
+                    li{
+                        list-style: none;
+                        margin: 1% auto;
+                        width: 100%;
+                        display: block;
+                        &:hover a{
+                            color:#94ffc6
+                        }
+
+                        &:hover i {
+                            color: #94ffc6
+                        }
+
+                        a{
+                            display: block;
+                            margin: 10% auto;
+                            text-align: center;
+                            padding: 5px;
+                            color: #88898c;
+                            text-decoration: none;
+                            font-size: 1em;
+
+                            i{
+                                display: block;
+                                width:100%;
+                                text-align: center;
+                                font-size: 2em;
+                                color: #88898c;
+                                margin-top:4%;
+                            }
+                        }
+                    }
+                }
+
+                .last-of-type{
+                    position: absolute;
+                    border-top: 1px solid #000000;
+                    bottom:0px;
+                    width: 100%;
+                    ul{
+                        display: block;
+                        width: 100%;
+                        margin: 0px auto;
+                        padding: 15px;
+                        border-top: #1f1f1f 1px solid;
+
+                        li{
+                            list-style: none;
+
+                            &:hover a{
+                                color:#94ffc6
+                            }
+
+                            &:hover i {
+                                color: #94ffc6
+                            }
+
+                            a{
+                                display: block;
+                                margin: 2% auto;
+                                text-align: center;
+                                padding: 5px;
+                                color: #88898c;
+                                text-decoration: none;
+
+                                i{
+                                    display: block;
+                                    width:100%;
+                                    text-align: center;
+                                    font-size: 2em;
+                                    color: #88898c;
+                                }
+                            }
+                            .profile{
+                                
+                            }
+
+                            .profile-picture{
+                                width: 60%;
+                                margin: 10% 20%;
+                                border-radius: 50px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+        /*EVENT THUMBNAILS*/
+
+        .event-lg{
+            width: 29.33%;
+            display: block;
+            float: left;
+            margin: 0% 2%;
+
+            .event-date-wrapper{
+                position: absolute;
+                width: 74%;
+                margin: 1% 2%;
+
+                span{
+
+                    i{
+                        float: left;
+                        font-size: 1.4em;
+                        color: gray;
+                    }
+
+                    p{
+                        font-size: 0.9em;
+                        margin: 7px 10px;
+                        display: -webkit-inline-box;
+                    }
+                }
+            }
+
+            .event-image{
+                display: block;
+                margin: 0 auto;
+                width: 100%;
+
+            }
+
+            .btn-to-event{
+                width: 100%;
+                margin: 10px auto 30px;
+                display: block;
+                background-color: #0f6c3a;
+                padding: 14px;
+                text-align: center;
+                color: white;
+                box-shadow: 1px 1px 0px 1px lightgray;
+            }
+        }
+
+        /*SEARCH*/
+
+        /*event calender search*/
+
+        #search{
+            .rc-calendar-range{
+                overflow: hidden;
+                margin-left: 10%;
+                width: 80%;
+                display: block;
+            }
+
+            .rc-calendar-range-left{
+                float: left;
+                width: 50%;
+            }
+
+            .rc-calendar-range-right{
+                float: right;
+                width: 50%;
+            }
+        }
+    }
+}

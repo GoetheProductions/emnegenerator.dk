@@ -1,0 +1,36 @@
+/*===================================================
+  =  Bootstrap 3 Media Queries Mobile First Method  =
+  ===================================================*/
+  
+// @import "media_w_320.scss";
+// @import "media_w_480.scss";
+// @import "media_w_768.scss";
+// @import "media_w_992.scss";
+// @import "media_w_1200.scss";
+
+body{
+  overflow: hidden;
+}
+.extreme-button{
+  background-color: darkred;
+  height: 400px;
+  width: 400px;
+  border-radius: 400px;
+  color: white;
+  display: block;
+  text-align: center;
+  margin: 20vh auto;
+  font-size: 5em;
+
+  &:focus{
+    outline: 0;
+  }
+}
+
+.subject{
+  display: block;
+  margin: 1vh auto;
+  text-align: center;
+  font-size: 5em;
+}
+
