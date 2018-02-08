@@ -1,8 +1,3 @@
-npm install
-check if works
-edit readme
-edit package.json
-edit server.js
-npm run build
-git init 
-deploy to heroku
+# Subject generator
+
+this is a small project, simply made for me and my friends to generate subjects, when we're drunk and want to do improvised rap battles.
